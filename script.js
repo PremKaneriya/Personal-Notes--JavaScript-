@@ -25,7 +25,7 @@ notesContainer.addEventListener("click", function(e){
         e.target.parentElement.remove();
         updateStorage();
     }
-    elseif(e.target.tagName === "p"){
+    elseif(e.target.tagName === "p")
         notes.document.querySelectorAll(".input-box");
         notes.forEach(nt => {
             nt.onkeyup = function(){
@@ -33,7 +33,7 @@ notesContainer.addEventListener("click", function(e){
             }
         })
     }
-})
+)
 
 
 document.addEventListener("keydown", event =>{
